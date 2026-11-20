@@ -16,7 +16,7 @@ app.use(express.urlencoded({ extended: true })); // if you want to send from x-w
 
 // Home Route
 app.get("/", (req, res) => {
-  res.send("CoreSamadhan backend is running! (Modular structure)");
+  res.send("CivicIssue backend is running!");
 });
 
 // Import API routes
