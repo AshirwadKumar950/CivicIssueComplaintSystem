@@ -1,3 +1,20 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+  "rewrites": [
+    {
+      "source": "/reports",
+      "destination": "http://13.239.23.221/reports"
+    },
+    {
+      "source": "/report",
+      "destination": "http://13.239.23.221/report"
+    },
+    {
+      "source": "/report/:path*",
+      "destination": "http://13.239.23.221/report/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
+  ]
 }
